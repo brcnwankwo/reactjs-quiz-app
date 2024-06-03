@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: http://localhost:3000
+    - host: localhost
       http:
         paths:
           - path: /api/questions
